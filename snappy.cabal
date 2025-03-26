@@ -28,6 +28,7 @@ library
   extra-libraries: snappy stdc++
 
   cc-options:      -Wall
+  cxx-options:     -std=c++11
   ghc-options:     -Wall
 
   build-depends:   base < 5, bytestring
